@@ -1,7 +1,7 @@
 class RepositorySchema {
   static schema ={
     name: 'Repository',
-    rpimaryKey: 'id',
+    primaryKey: 'id',
     properties: {
       id: { type: 'int', indexed: true },
       name: 'string',
